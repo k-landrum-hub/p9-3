@@ -33,16 +33,16 @@ int main() {
 
  // number value of the passed Roman numeral character.
  
-//int romanCharValue(char r) {
-//    if (r == 'I' || r == 'i') return 1;
-//    if (r == 'V' || r == 'v') return 5;
-//    if (r == 'X' || r == 'x') return 10;
-//    if (r == 'L' || r == 'l') return 50;
-//    if (r == 'C' || r == 'c') return 100;
-//    if (r == 'D' || r == 'd') return 500;
-//    if (r == 'M' || r == 'm') return 1000;
-//    return 0;
-//}
+int romanCharValue(char r) {
+    if (r == 'I' || r == 'i') return 1;
+    if (r == 'V' || r == 'v') return 5;
+    if (r == 'X' || r == 'x') return 10;
+    if (r == 'L' || r == 'l') return 50;
+    if (r == 'C' || r == 'c') return 100;
+    if (r == 'D' || r == 'd') return 500;
+    if (r == 'M' || r == 'm') return 1000;
+    return 0;
+}
 
 // Converts a Roman number into intager 
  
